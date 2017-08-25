@@ -1,0 +1,82 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+2
+12
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+PBL1
+# storage
+db|CircuitoDigital.(1).cnf
+db|CircuitoDigital.(1).cnf
+# case_insensitive
+# source_file
+PBL1.bdf
+3d7d26b1f611271154c2bd2954ba4744
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PBL1:inst
+}
+# macro_sequence
+
+# end
+# entity
+PBL1-2
+# storage
+db|CircuitoDigital.(2).cnf
+db|CircuitoDigital.(2).cnf
+# case_insensitive
+# source_file
+PBL1-2.bdf
+d8cdcba9e867145b592a42a81f8fa2f4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PBL1-2:inst1
+}
+# macro_sequence
+
+# end
+# entity
+CircuitoDigital
+# storage
+db|CircuitoDigital.(0).cnf
+db|CircuitoDigital.(0).cnf
+# case_insensitive
+# source_file
+CircuitoDigital.bdf
+4f738ed136e39215429fd0f421d58fcc
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

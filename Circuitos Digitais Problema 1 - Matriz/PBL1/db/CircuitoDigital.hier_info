@@ -1,0 +1,70 @@
+|CircuitoDigital
+SL1 <= PBL1-2:inst1.L0
+L1 => PBL1-2:inst1.PL1
+L2 => PBL1-2:inst1.PL2
+L3 => PBL1-2:inst1.PL3
+L4 => PBL1-2:inst1.PL4
+SL2 <= PBL1-2:inst1.L1
+SL3 <= PBL1-2:inst1.L2
+SL4 <= PBL1-2:inst1.L3
+SL5 <= PBL1-2:inst1.L4
+SL6 <= PBL1-2:inst1.L5
+SL7 <= PBL1-2:inst1.L6
+SC1 <= PBL1:inst.A
+C1 => PBL1:inst.PC1
+C2 => PBL1:inst.PC2
+C3 => PBL1:inst.PC3
+C4 => PBL1:inst.PC4
+SC2 <= PBL1:inst.B
+SC3 <= PBL1:inst.C
+SC4 <= PBL1:inst.D
+SC5 <= PBL1:inst.E
+
+
+|CircuitoDigital|PBL1-2:inst1
+L0 <= inst29.DB_MAX_OUTPUT_PORT_TYPE
+PL1 => inst21.IN0
+PL1 => inst.IN0
+PL1 => inst6.IN0
+PL1 => inst8.IN0
+PL2 => inst22.IN0
+PL2 => inst5.IN1
+PL2 => inst6.IN1
+PL2 => inst16.IN1
+PL3 => inst23.IN0
+PL3 => inst7.IN2
+PL3 => inst8.IN2
+PL3 => inst16.IN2
+PL4 => inst31.IN0
+L1 <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+L2 <= inst28.DB_MAX_OUTPUT_PORT_TYPE
+L3 <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+L4 <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+L5 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+L6 <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CircuitoDigital|PBL1:inst
+A <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+PC1 => inst16.IN0
+PC1 => inst.IN0
+PC1 => inst6.IN0
+PC2 => inst4.IN1
+PC2 => inst.IN1
+PC2 => inst17.IN0
+PC2 => inst7.IN1
+PC3 => inst18.IN0
+PC3 => inst5.IN2
+PC3 => inst6.IN2
+PC3 => inst7.IN2
+PC4 => inst4.IN3
+PC4 => inst.IN3
+PC4 => inst5.IN3
+PC4 => inst6.IN3
+PC4 => inst7.IN3
+B <= inst.DB_MAX_OUTPUT_PORT_TYPE
+C <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+E <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
